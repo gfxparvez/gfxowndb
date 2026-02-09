@@ -1,0 +1,4 @@
+project_id = "leaplzpewcvgsqvyorve"
+
+[functions.db-api]
+verify_jwt = false
