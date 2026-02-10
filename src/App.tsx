@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "@/hooks/useAuth";
 import DashboardLayout from "@/components/DashboardLayout";
 import Auth from "@/pages/Auth";
+import Landing from "@/pages/Landing";
+import Docs from "@/pages/Docs";
 import Dashboard from "@/pages/Dashboard";
 import Databases from "@/pages/Databases";
 import DatabaseDetail from "@/pages/DatabaseDetail";
