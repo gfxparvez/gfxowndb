@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { exportDB } from "@/lib/mainwebdb";
 
 const navItems = [
-  { label: "Dashboard", icon: Home, path: "/" },
+  { label: "Dashboard", icon: Home, path: "/dashboard" },
   { label: "Databases", icon: Database, path: "/databases" },
   { label: "API Keys", icon: Key, path: "/api-keys" },
   { label: "Data Explorer", icon: Table2, path: "/explorer" },
