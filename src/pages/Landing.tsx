@@ -15,7 +15,7 @@ const features = [
 ];
 
 const codeSnippet = `// GFX DB — Insert data with a single fetch call
-const res = await fetch("YOUR_API_URL/functions/v1/db-api", {
+const res = await fetch("https://leaplzpewcvgsqvyorve.supabase.co/functions/v1/db-api", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
