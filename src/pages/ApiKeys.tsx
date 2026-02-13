@@ -66,7 +66,7 @@ const ApiKeys = () => {
     refresh();
   };
 
-  const apiUrl = "https://gfxdb.lovable.app/api";
+  const apiUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/db-api`;
 
   const getSnippets = (key: string) => ({
     curl: `curl -X POST "${apiUrl}" \\
