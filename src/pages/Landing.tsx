@@ -15,7 +15,7 @@ const features = [
 ];
 
 const codeSnippet = `// GFX DB — Insert data with a single fetch call
-const res = await fetch("https://gfxdb.lovable.app/api", {
+const res = await fetch("YOUR_API_URL/functions/v1/db-api", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({
@@ -43,7 +43,7 @@ const Landing = () => {
             </div>
           </Link>
           <div className="flex items-center gap-2">
-            <Link to="/docs">
+            <Link to="/documents">
               <Button variant="ghost" size="sm" className="gap-1.5"><BookOpen className="w-4 h-4" /> Docs</Button>
             </Link>
             <Link to="/admin">

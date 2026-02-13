@@ -10,6 +10,7 @@ import Landing from "@/pages/Landing";
 import AdminLogin from "@/pages/AdminLogin";
 import AdminPanel from "@/pages/AdminPanel";
 import Docs from "@/pages/Docs";
+import Documents from "@/pages/Documents";
 import Dashboard from "@/pages/Dashboard";
 import Databases from "@/pages/Databases";
 import DatabaseDetail from "@/pages/DatabaseDetail";
@@ -48,6 +49,7 @@ const App = () => (
             <Route path="/" element={<Landing />} />
             <Route path="/landing" element={<Landing />} />
             <Route path="/docs" element={<Docs />} />
+            <Route path="/documents" element={<Documents />} />
             <Route path="/auth" element={<AuthRoute><Auth /></AuthRoute>} />
 
             {/* Admin */}
