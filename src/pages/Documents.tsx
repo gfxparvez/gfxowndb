@@ -24,7 +24,7 @@ const CodeBlock = ({ code, lang }: { code: string; lang: string }) => {
   );
 };
 
-const API_BASE = "YOUR_API_URL/functions/v1/db-api";
+const API_BASE = "https://leaplzpewcvgsqvyorve.supabase.co/functions/v1/db-api";
 
 const sections = [
   {
